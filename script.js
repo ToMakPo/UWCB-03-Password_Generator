@@ -17,7 +17,7 @@ function generatePassword() {
   const pwc_lowercase = 'abcdefghijklmnopqrstuvwxyz'
   const pwc_uppercase = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
   const pwc_numeric = '0123456789'
-  const pwc_special = '~!@#$%^&*()-_=+[]{}|;:,.<>?'
+  const pwc_special = '!"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~'
 
   // Get the length of the password. 
   var error_msg = ""
